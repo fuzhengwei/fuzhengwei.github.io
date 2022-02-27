@@ -1,13 +1,12 @@
 ![logo](_media/logo.png)
 
-# CodeGuide
+# 小傅哥
 
-## 程序员编码指南
+## 教程序员快速搭建博客
 
-- 本代码库是作者小傅哥多年从事一线互联网 `Java` 开发的学习历程技术汇总，旨在为大家提供一个清晰详细的学习教程，侧重点更倾向编写Java核心内容。如果本仓库能为您提供帮助，请给予支持(关注、点赞、分享)！   
+- 本仓库以基于 docsify 构建的所见即所得博客，程序员👨🏻‍💻伙伴可以通过克隆仓库，配置基础的信息就可以拥有一个这样的博客了！
     
-[![stars](https://badgen.net/github/stars/fuzhengwei/CodeGuide?icon=github&color=4ab8a1)](https://github.com/fuzhengwei/CodeGuide) [![forks](https://badgen.net/github/forks/fuzhengwei/CodeGuide?icon=github&color=4ab8a1)](https://github.com/fuzhengwei/CodeGuide) [<img src="https://itstack.org/_media/wxbugstack.svg">](https://itstack.org/_media/qrcode.png?x-oss-process=style/may)    
+[![stars](https://badgen.net/github/stars/fuzhengwei/CodeGuide?icon=github&color=4ab8a1)](https://github.com/fuzhengwei/CodeGuide) [![forks](https://badgen.net/github/forks/fuzhengwei/CodeGuide?icon=github&color=4ab8a1)](https://github.com/fuzhengwei/CodeGuide) 
 
 [GitHub](<https://github.com/fuzhengwei/CodeGuide>)
 [开始阅读](README.md)
-

@@ -1,4 +1,4 @@
-![logo](_media/tree.png)
+![logo](_media/logo.png)
 
 # CodeGuide
 

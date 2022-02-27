@@ -1,44 +1,25 @@
-* [:octocat: 首页](/README)
-* :memo: 目录
-    * [第 1 章 - 引言](/notes/asm-doc/1引言.md)
-    * `第一部分 核心 API`
-    * [第 2 章 - 类](notes/asm-doc/2.0类.md) 
-        * [2.1 结构](notes/asm-doc/2.1结构.md)    
-        * [2.2 接口和组件](notes/asm-doc/2.2接口和组件.md)    
-        * [2.3 工具](notes/asm-doc/2.3工具.md)    
-    * [第 3 章 - 方法](/notes/asm-doc/3.0方法.md) 
-        * [3.1 结构](/notes/asm-doc/3.1结构.md)    
-        * [3.2 接口和组件](/notes/asm-doc/3.2接口和组件.md)    
-        * [3.3 工具](/notes/asm-doc/3.3工具.md)    
-    * [第 4 章 - 元数据](/notes/asm-doc/4.0元数据.md)     
-        * [4.1 泛型](/notes/asm-doc/4.1泛型.md)    
-        * [4.2 注释](/notes/asm-doc/4.2注释.md)    
-        * [4.3 调试](/notes/asm-doc/4.3调试.md)   
-    * [第 5 章 - 后向兼容](/notes/asm-doc/5.0后向兼容.md)
-        * [5.1 引言](/notes/asm-doc/5.1引言.md)    
-        * [5.2 规则](/notes/asm-doc/5.2规则.md)    
-    * `第二部分 树 API`   
-    * [第 6 章 - 类](/notes/asm-doc/6.0类.md) 
-        * [6.1 接口和组件](/notes/asm-doc/6.1接口和组件.md)        
-        * [6.2 组件合成](/notes/asm-doc/6.2组件合成.md)        
-    * [第 7 章 - 方法](/notes/asm-doc/7.0方法.md)  
-        * [7.1 接口和组件](/notes/asm-doc/7.1接口和组件.md)   
-        * [7.2 组件合成](/notes/asm-doc/7.2组件合成.md)   
-    * [第 8 章 - 方法分析](/notes/asm-doc/8.0方法分析.md) 
-        * [8.1 介绍](/notes/asm-doc/8.1介绍.md)   
-        * [8.2 组件与接口](/notes/asm-doc/8.2组件与接口.md)   
-    * [第 9 章 - 元数据](/notes/asm-doc/9.0元数据.md) 
-        * [9.1 泛型](/notes/asm-doc/9.1泛型.md)    
-        * [9.2 注释](/notes/asm-doc/9.2注释.md)    
-        * [9.2 调试](/notes/asm-doc/9.3调试.md)    
-    * [第 10 章 - 后向兼容](/notes/asm-doc/10.0后向兼容.md) 
-        * [10.1 介绍](/notes/asm-doc/10.1介绍.md)    
-        * [10.2 规则](/notes/asm-doc/10.2规则.md)      
-    * [A. 附录](/notes/asm-doc/A.0附录.md) 
-        * [A.1 字节代码指令](/notes/asm-doc/A.1字节代码指.md)
-        * [A.2 子例程](/notes/asm-doc/A.2子例程.md)
-        * [A.3 属性](/notes/asm-doc/A.3属性.md)
-        * [A.4 规则](/notes/asm-doc/A.4规则.md)
-        * [A.5 性能](/notes/asm-doc/A.5性能.md)
-        * [JVM指令表](/notes/asm-doc/JVM-指令表.md)
-    
+- [:octocat: 首页](/README)
+- :memo: 目录
+   - 第1章：开发入门
+   
+       - [第1节：IDEA 插件怎么开发](md/idea-plugin/2021-08-27-技术调研，IDEA 插件怎么开发？.md)
+       - [第2节：IDEA 插件怎么发布](md/idea-plugin/2021-08-29-技术实践，IDEA 插件怎么发布？.md)
+   
+   - 第2章：基础功能
+   
+       - [第3节：两种方式创建插件工程](md/idea-plugin/2021-10-18-《IntelliJ IDEA 插件开发》第一节：两种方式创建插件工程.md)
+       - [第4节：配置窗体和侧边栏窗体的使用](md/idea-plugin/2021-11-03-《IntelliJ IDEA 插件开发》第二节：配置窗体和侧边栏窗体的使用.md)
+       - [第5节：开发工具栏和Tab页，展示股票行情和K线](md/idea-plugin/2021-11-18-《IntelliJ IDEA 插件开发》第三节：开发工具栏和Tab页，展示股票行情和K线.md)
+   
+   - 第3章：基建设计
+   
+       - [第6节：扩展创建工程向导步骤，开发DDD脚手架](md/idea-plugin/2021-11-24-《IntelliJ IDEA 插件开发》第四节：扩展创建工程向导步骤，开发DDD脚手架.md)
+       - [第7节：IDEA工程右键菜单，自动生成ORM代码](md/idea-plugin/2021-12-08-《IntelliJ IDEA 插件开发》第五节：IDEA工程右键菜单，自动生成ORM代码.md)
+       - [第8节：选定对象批量织入“x.set(y.get)”代码，自动生成vo2dto](md/idea-plugin/2021-12-14-《IntelliJ IDEA 插件开发》第六节：以织入代码的方式，自动处理vo2dto.md)
+   
+   - 第4章：辅助工具
+       
+       - [第9节：通过Inspection机制，对静态代码安全审查](md/idea-plugin/2021-12-22-《IntelliJ IDEA 插件开发》第7节：通过Inspection机制，为静态代码安全审查.md)
+       - [第10节：在插件中引入探针，基于字节码插桩获取执行SQL](md/idea-plugin/2022-01-17-《IntelliJ IDEA 插件开发》第8节：在插件中引入探针，基于字节码插桩获取执行SQL.md)
+       - [第11节：基于IDEA插件开发和字节码插桩技术，实现研发交付质量自动分析](md/idea-plugin/2022-01-22-《IntelliJ IDEA 插件开发》第9节：加载文件生成链表单词树，输入属性时英文校准提醒.md)
+       - [第12节：加载文件生成链表单词树，输入属性时英文校准提醒](md/idea-plugin/2022-01-23-《IntelliJ IDEA 插件开发》第10节：基于字节码插桩采集数据，实现代码交付质量自动分析.md)

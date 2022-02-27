@@ -67,7 +67,7 @@ IDEA 插件开发可以帮助研发人员提升能效，解决一些实际场景
 
 粉丝伙伴在阅读的过程中，**千万不要害怕在学习的过程中遇到问题，这些都是正常的！** 希望你可以一直坚持把这些内容事必躬亲、亲历亲为的学完，加油！
 
-## 四、 :paw_prints: 问题交流
+## 四、问题交流
 
 ![](https://github.com/fuzhengwei/small-spring/blob/main/docs/assets/img/bugstack-md.png?raw=true)
 

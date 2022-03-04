@@ -1,4 +1,4 @@
-# IDEA Plugin 开发手册 🔥
+# 教小白使用 docsify，搭建一个贼简单的所见即所得博客！ 🔥
 
 >你好，我是小傅哥，[《重学Java设计模式》](https://item.jd.com/13218336.html) 图书作者，一线互联网 Java 工程师、架构师。
 

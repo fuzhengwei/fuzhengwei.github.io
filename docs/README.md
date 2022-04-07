@@ -60,7 +60,7 @@ So, Work & Life Balance
 
 ## 四、问题交流
  **加群交流**
-  
-![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3ea94fb4cbd444d3a582e0b42965a401~tplv-k3u1fbpfcp-watermark.image?)
+
+<img src="https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3ea94fb4cbd444d3a582e0b42965a401~tplv-k3u1fbpfcp-watermark.image?" alt="image-20220210100227244" style="zoom:30%;" />
 
 

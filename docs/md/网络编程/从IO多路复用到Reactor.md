@@ -26,7 +26,7 @@
 
 I/O 多路复用技术会用一个系统调用函数来监听我们所有关心的连接，也就说可以在**一个监控线程里面监控很多的连接**。
 
-<img src="http://img.jjjzzzqqq.top/image-20220407140028674.png" alt="image-20220407140028674" style="zoom:67%;" />
+<img src="https://cdn.jsdelivr.net/gh/xiaolincoder/ImageHost4@main/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/Reactor/%E5%8D%95Reactor%E5%8D%95%E8%BF%9B%E7%A8%8B.png" alt="image-20220407140028674" style="zoom:67%;" />
 
 **select/poll/epoll 是如何获取网络事件的呢？**
 

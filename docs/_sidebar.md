@@ -1,21 +1,20 @@
 - [:octocat: 首页](/README)
-- :memo: 目录
-    - Java并发编程
-      - [Java多线程编程技术基础实践](/md/Java并发编程/Java多线程编程技术实践.md)
-      - [JUC锁核心类AQS解析](/md/Java并发编程/Java锁核心类AQS解析.md)
-    - 操作系统
-    - 计算机网络
-    - 网络编程
-      - [高性能网络模式Reactor](/md/网络编程/从IO多路复用到Reactor.md)
-    - Bug&Trouble
-      - [pre和prod版本不一致](/md/Bug&Trouble/pre-prod-diff-bug.md)
-    - 项目
-      - [HTTP参数发送和接收](/md/项目/HTTP参数发送和接收.md)
-      - [分布式锁之Redisson](/md/项目/分布式锁之Redisson.md)
-    - ES
-      - [ES基础概念](/md/ES/ES基础概念.md)
-      - [ES分布式原理](/md/ES/ES分布式原理.md)
-      - [ES查询原理](/md/ES/ES查询原理.md)
-      - [ES数据同步方案](/md/ES/ES数据同步方案.md)
-      - [ES系统优化](/md/ES/ES系统优化.md)
-      - [ES相关知识](/md/ES/ES相关知识.md)
+- Java并发编程
+  - [Java多线程编程技术基础实践](/md/Java并发编程/Java多线程编程技术实践.md)
+  - [JUC锁核心类AQS解析](/md/Java并发编程/Java锁核心类AQS解析.md)
+- 操作系统
+- 计算机网络
+- 网络编程
+  - [高性能网络模式Reactor](/md/网络编程/从IO多路复用到Reactor.md)
+- Bug&Trouble
+  - [pre和prod版本不一致](/md/Bug&Trouble/pre-prod-diff-bug.md)
+- 项目
+  - [HTTP参数发送和接收](/md/项目/HTTP参数发送和接收.md)
+  - [分布式锁之Redisson](/md/项目/分布式锁之Redisson.md)
+- ES
+  - [ES基础概念](/md/ES/ES基础概念.md)
+  - [ES分布式原理](/md/ES/ES分布式原理.md)
+  - [ES查询原理](/md/ES/ES查询原理.md)
+  - [ES数据同步方案](/md/ES/ES数据同步方案.md)
+  - [ES系统优化](/md/ES/ES系统优化.md)
+  - [ES相关知识](/md/ES/ES相关知识.md)

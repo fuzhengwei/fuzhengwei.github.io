@@ -1,5 +1,5 @@
 - [:octocat: 首页](/README)
-- [Java并发编程](/md/Java并发编程/Java多线程编程技术实践.md)
+- Java并发编程
   - [Java多线程编程技术基础实践](/md/Java并发编程/Java多线程编程技术实践.md)
   - [JUC锁核心类AQS解析](/md/Java并发编程/Java锁核心类AQS解析.md)
 - 操作系统

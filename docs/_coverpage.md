@@ -1,6 +1,6 @@
 ![logo](_media/logo.png)
 
-# 小傅哥
+# Soul-debug
 
 ## 教程序员快速搭建博客
 

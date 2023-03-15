@@ -1,5 +1,4 @@
 - [:octocat: 首页](/README)
-- [:memo: idea插件开发指南](/md/idea-plugin/read.md)
 - [:melon: 设计模式](/md/design-pattern/享元模式以及克隆模式.md)
 - [:metal: es](/md/es/es快速手册.md)
 - [:milky_way: mysql](/md/mysql/mysql分区.md)

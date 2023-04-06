@@ -1,9 +1,3 @@
----
-title: Value注解给静态变量注入值
-date: 2022-11-7
-categories: [Java]
-tags: [spring,exp]
----
 ## @Value注解不可以直接给静态化变量注入
 ```javascript
 @Value("${login.name}")

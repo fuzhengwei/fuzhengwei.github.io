@@ -68,3 +68,30 @@ npm run start & ps aux | grep start
 http.cors.enabled: true  // 允许跨域访问
 http.cors.allow-origin: "*"  // 所有请求链接都能访问
 ```
+
+#### kibana安装
+##### 下载匹配版本的安装包
+[kibana官网](http://www.elastic.co/cn/downloads/past-releases#kibana)
+
+##### 配置
+```javascript
+vim config/kibana.yml
+#对外访问端口
+server.port: 5601
+# 全部都能访问
+server.host: "0.0.0.0"
+#配置es地址
+elasticsearch.hosts: ["http://127.0.0.1:9200"]
+# 6.x版本需要下载汉化插件
+i18n.locale: "zh-CN"
+```
+###### 授权账号
+```shell
+chown -R elastic:elastic /opt/kibana/
+chmod 770 /opt/kibana/
+```
+
+###### 后台启动
+```shell
+nohup ./kibana &
+```

@@ -18,7 +18,17 @@ bash ./bin/elasticsearch -d
 curl http://localhost:9200
 
 ```
-
+#### 单机配置案例
+```yaml
+cluster.name: node_180
+node.name: node_180
+path.data: /opt/es/es_node/data
+path.logs: /opt/es/es_node/data/logs
+network.host: 0.0.0.0 
+http.port: 9200
+discovery.seed_hosts: ["http://121.4.147.180"]
+cluster.initial_master_nodes: ["node_180"]
+```
 
 #### 异常解决
 以下配置如无特殊说明均配置在conf/elasticsearch.y m l中

@@ -24,7 +24,15 @@
 
 #### 基于注解
 @Bean注解声明在方法上可以将返回值作为bean注入到容器，可与@ConditionalOnMissingBean搭配；
-
+```text
+    @Autowired
+    @Qualifier(value = "lisi")
+    autowired自动装配会先根据类型去匹配合适的bean,匹配不到则根据name;
+    而qualifier则是为了解决在多个bean下去选择哪一个bean的问题;
+    
+    @Resource
+    该注解用作自动装配是J2EE提供的（autowired是spring提供的）,该注解也可以自动装配，与上一个注解不同的是该注解先byName匹配再byType
+```
 ```text
     @Value("${}")
     可以获取对应属性文件中定义的属性值。例如

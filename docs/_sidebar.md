@@ -3,5 +3,6 @@
 - [:metal: es](/md/es/es快速手册.md)
 - [:milky_way: mysql](/md/mysql/mysql分区.md)
 - [:mortar_board: 项目](/md/project-summary/某某中台项目开发.md)
-- [:pill: spring](/md/spring/@Value注解给静态变量注入值.md)
+
+[//]: # (- [:pill: spring]&#40;/md/spring/@Value注解给静态变量注入值.md&#41;)
 - [:moon: 问题记录](/md/problem/记一次mysql数据库死锁.md)

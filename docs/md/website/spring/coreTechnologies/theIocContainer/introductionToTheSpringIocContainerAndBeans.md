@@ -3,7 +3,7 @@ https://docs.spring.io/spring-framework/reference/core/beans/introduction.html
 
 ioc是控制反转同时也被称为依赖注入,是指对象通过属性注入、构造器注入、工厂方法注入等途径来进行依赖分配的过程。(什么是Ioc)
  
-application和bean包主要负责实现控制反转。
+application和bean包一起实现控制反转
 
 beanFactory接口以及一系列实现提供了根据配置来进行bean对象管理的能力
 

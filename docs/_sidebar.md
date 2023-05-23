@@ -7,6 +7,6 @@
 
 [//]: # (- [:mortar_board: 项目]&#40;/md/project-summary/某某中台项目开发.md&#41;)
 
-- [:pill: spring](/md/spring/@spring依赖注入方式.md)
+- [:pill: spring](/md/spring/spring依赖注入方式.md)
 
 [//]: # (- [:moon: 问题记录]&#40;/md/problem/记一次mysql数据库死锁.md&#41;)

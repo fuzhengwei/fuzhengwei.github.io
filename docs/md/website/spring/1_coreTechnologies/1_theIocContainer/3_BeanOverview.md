@@ -60,6 +60,14 @@
 
 ## bean的命名
 一般bean会有一个唯一标识，如果需要多个标识可以使用别名
+在xml中我们使用id和name属性来标识一个beanDefinition，id是唯一标识，name可以指定多个别名，用, ; 或者空格来分割
+
+正常情况下如果你不指定id和name那么容器会给你自行分配一个唯一的name，但是如果你需要使用ref或者其他方式引用bean ，那么你就需要给那个
+bean来指定一个name，因为内部组装的方式和name有关.
+
+我们一般使用驼峰的方式来命名bean
+
+
 
 
 https://docs.spring.io/spring-framework/reference/core/beans/definition.html
